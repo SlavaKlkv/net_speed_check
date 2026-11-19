@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "net-speed-check"
+version = "0.1.0"
+description = "Консольный скрипт для замера скорости скачивания по HTTP/HTTPS"
+readme = "README.md"
+requires-python = ">=3.13"
+license = { text = "MIT" }
+authors = [
+    { name = "Slava Kulikov" }
+]
+
+[project.scripts]
+net-speed-check = "net_speed_check.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

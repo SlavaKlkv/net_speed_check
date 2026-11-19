@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# OS & Editors
+.DS_Store
+.vscode/
+.idea/
+
+# Локальные файлы правил AI-инструментов
+COMMON_RULES.md
+.agents/rules/project.md
