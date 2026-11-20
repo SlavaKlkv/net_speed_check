@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 """Точка входа для быстрого запуска скрипта без установки пакета."""
 
 from pathlib import Path

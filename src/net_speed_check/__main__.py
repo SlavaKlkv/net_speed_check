@@ -1,4 +1,4 @@
-"""Запуск пакета через `python3 -m net_speed_check`."""
+"""Запуск пакета через `python -m net_speed_check`."""
 
 import sys
 

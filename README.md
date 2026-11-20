@@ -49,13 +49,13 @@ speed_mbps = (total_bytes * 8) / total_duration_seconds / 1_000_000
 ```bash
 git clone https://github.com/SlavaKlkv/net_speed_check.git
 cd net_speed_check
-python3 speed_check.py https://speed.cloudflare.com/__down?bytes=1000000
+python speed_check.py https://speed.cloudflare.com/__down?bytes=1000000
 ```
 
 ### Запуск с дополнительными параметрами
 
 ```bash
-python3 speed_check.py https://speed.cloudflare.com/__down?bytes=1000000 --unit MB/s --timeout 20
+python speed_check.py https://speed.cloudflare.com/__down?bytes=1000000 --unit MB/s --timeout 20
 ```
 
 ### Установка как CLI-команды (опционально)
@@ -98,7 +98,7 @@ net-speed-check https://speed.cloudflare.com/__down?bytes=1000000
 Тесты поднимают локальный HTTP-сервер и не требуют доступа в интернет:
 
 ```bash
-python3 -m unittest discover -s tests -v
+python -m unittest discover -s tests -v
 ```
 
 ## Структура проекта
