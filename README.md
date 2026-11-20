@@ -1,6 +1,6 @@
 <div align="center">
 
-# net_speed_check
+# net speed check
 
 ![Python 3.14+](https://img.shields.io/badge/python-3.14%2B-blue)
 ![Dependencies: stdlib](https://img.shields.io/badge/dependencies-stdlib%20only-brightgreen)
