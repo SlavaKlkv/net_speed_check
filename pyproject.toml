@@ -7,7 +7,7 @@ name = "net-speed-check"
 version = "0.1.0"
 description = "Консольный скрипт для замера скорости скачивания по HTTP/HTTPS"
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.14"
 license = { text = "MIT" }
 authors = [
     { name = "Slava Kulikov" }

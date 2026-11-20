@@ -1,8 +1,12 @@
+<div align="center">
+
 # net_speed_check
 
-![Python 3.13+](https://img.shields.io/badge/python-3.13%2B-blue)
+![Python 3.14+](https://img.shields.io/badge/python-3.14%2B-blue)
 ![Dependencies: stdlib](https://img.shields.io/badge/dependencies-stdlib%20only-brightgreen)
 ![License: MIT](https://img.shields.io/badge/license-MIT-lightgrey)
+
+</div>
 
 Консольная утилита на Python для замера скорости скачивания по HTTP/HTTPS.  
 Последовательно выполняет 10 запросов к указанному URL (например, тяжёлой картинке или файлу), дожидается полного ответа на каждый, считает среднее время запроса, общий объём скачанных данных и печатает скорость скачивания.
@@ -36,7 +40,7 @@ speed_mbps = (total_bytes * 8) / total_duration_seconds / 1_000_000
 
 ## Требования
 
-- Python **3.13+** (проверено на `Python 3.13.9`).
+- Python **3.14+** (проверено на `Python 3.14.10`).
 
 ## Установка и запуск
 
